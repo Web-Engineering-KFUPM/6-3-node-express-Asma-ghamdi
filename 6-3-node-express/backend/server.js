@@ -11,7 +11,7 @@ app.use(cors());
 
 // TODO 5: Import and apply Morgan middleware
 import morgan from "morgan";
-import { getRandomQuote } from "./quotes";
+import { getRandomQuote } from "./quotes.js";
 app.use(morgan("dev"));
 
 // TODO 6.1: Create root route "/"
@@ -26,3 +26,6 @@ app.get("/api/quote", (req,res) => {
 } )
 
 // TODO 7: Start server using app.listen
+app.listen(PORT, () => {
+    console.log(('Hello I am running from port 3000'));
+});
