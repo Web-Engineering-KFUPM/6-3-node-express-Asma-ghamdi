@@ -25,7 +25,7 @@ LAB SETUP INSTRUCTIONS
    - To add request logging in this lab, also install morgan:
       npm install morgan
 
-3. Start the front server server from 6-3-node-express-main\6-3-node-express path:
+3. Start the front server server from 6-3-node-express\6-3-node-express path:
    Run:
       npm run dev
 
